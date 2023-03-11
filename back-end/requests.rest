@@ -1,0 +1,10 @@
+@roomId=2c9a83b6-02ee-4d6d-a060-8b4024f50427
+
+POST http://{{roomId}}.localhost:8000 HTTP/1.1
+Content-Type: application/json
+
+{
+    "body": {
+        "msg": "This is a random message."
+    }
+}
